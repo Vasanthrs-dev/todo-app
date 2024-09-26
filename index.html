@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container grid-2-row">
+      <section class="top-section grid-2-row">
+        <div class="main-nav header-section">
+          <div class="empty"></div>
+          <div class="main-logo">Todo</div>
+          <div class="main-date">Date</div>
+        </div>
+        <div class="form">
+          <div class="form--row">
+            <select class="form--input form--input-type">
+              <option value="morning">Morning</option>
+              <option value="afternoon">Afternoon</option>
+              <option value="evening">Evening</option>
+            </select>
+            <input type="text" class="form--text-field" />
+            <button class="form--submit">Submit</button>
+          </div>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <div class="sub-logo header-section">Activities</div>
+        <div class="activity--container">
+          <!-- <div class="bottom-activity">
+            <div class="activity-duration">M</div>
+            <div class="activity-content-input hidden">
+              <input type="text" class="activity--edit" />
+            </div>
+            <div class="activity-content">This is a content</div>
+            <div class="activity-btn">
+              <button class="btn activity--edit-btn">
+                <ion-icon name="pencil-outline"></ion-icon>
+              </button>
+              <button class="btn activity--check-btn hidden">
+                <ion-icon name="checkmark-done-outline"></ion-icon>
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

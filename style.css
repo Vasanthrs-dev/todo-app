@@ -1,0 +1,236 @@
+/* 
+Primary Colors:
+#fff
+#000
+
+Secondary Colors:
+Morning: #1E4174
+Afternoon: #DDA94B
+Evening: #DF6589
+
+Font Sizes:
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* //////////////////////// */
+/* TOP SECTION */
+
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.grid-2-row {
+  display: grid;
+  grid-template-rows: 1.8fr 2fr;
+}
+
+/* NAVIGATION */
+
+.main-nav {
+  display: flex;
+  padding: 0.8rem;
+}
+.empty {
+  flex: 1;
+}
+.header-section {
+  flex: 1;
+  font-size: 2.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main-date {
+  flex: 1;
+  text-align: end;
+}
+
+.main-date {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+/* FORM */
+
+.form {
+  justify-self: center;
+}
+
+.form--row {
+  height: 3.6rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.form--input {
+  font-family: inherit;
+  flex: 1;
+  text-transform: uppercase;
+  border: none;
+  font-weight: 500;
+  margin-right: 0.4rem;
+  text-indent: 1rem;
+}
+.form--input:focus {
+  outline: none;
+  border: none;
+}
+
+.form--text-field {
+  flex: 3;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-top: none;
+  border-bottom: none;
+  padding: 0.6rem;
+  font-family: inherit;
+  font-weight: 500;
+  margin: 0.4rem 0 0.4rem 0;
+}
+
+.form--text-field:focus {
+  outline: none;
+}
+
+.form--submit {
+  flex: 1;
+  font-family: inherit;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.form--submit:hover {
+  background-color: #000;
+  color: #fff;
+}
+.hidden {
+  display: none;
+}
+
+/* //////////////////////// */
+/* BOTTOM SECTION */
+.bottom-section {
+  background-color: #000;
+  padding-top: 1rem;
+  color: #fff;
+  overflow-y: scroll;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.sub-logo {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.bottom-activity {
+  margin: 0 auto;
+  display: flex;
+  height: 3.6rem;
+  width: 60rem;
+  background-color: #fff;
+  color: #000;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.activity-duration {
+  font-size: 1.8rem;
+  color: #fff;
+  height: 100%;
+  background-color: #df6589;
+  text-transform: uppercase;
+  text-align: center;
+  flex: 0.2;
+  padding: 0.2rem;
+}
+
+.activity-content-input {
+  flex: 2;
+}
+
+.activity--edit {
+  font-size: 1.8rem;
+  width: 100%;
+  height: 100%;
+  padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+  border: none;
+}
+.activity--edit:focus {
+  border: none;
+  outline: none;
+}
+
+.activity-content {
+  font-size: 1.8rem;
+  flex: 2;
+  padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+}
+
+.activity-btn {
+  display: flex;
+  justify-content: center;
+  /* background-color: red; */
+  flex: 0.5;
+  /* padding: 0.6rem 0 0.6rem 0.6rem; */
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.activity--edit-btn {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 5rem;
+}
+
+.btn-icon:hover {
+  transform: rotate(9deg);
+}
+
+.btn-icon[name="trash-bin-outline"]:hover {
+  color: #df6589;
+}
+.btn-icon[name="checkmark-done-outline"]:hover {
+  color: #08d42a;
+}
+.activity--check-btn,
+.activity--correct-btn {
+  width: 5rem;
+}
+
+.strike {
+  font-style: italic;
+  background-color: #ffffffbb;
+}
+.strike .activity-content {
+  text-decoration: line-through;
+}
+
+.scroll {
+  overflow-y: scroll;
+}
