@@ -1,6 +1,6 @@
 # Simple Todo App
 
-A simple Todo app built using JavaScript, allowing users to add, edit, delete, and check tasks. Users can also set todos for different times of the day: Morning, Afternoon, and Evening.
+A simple Todo app built using JavaScript, following the Object-Oriented Programming (OOP) paradigm. The app allows users to add, edit, delete, and check tasks. Users can also set todos for different times of the day: Morning, Afternoon, and Evening.
 
 ## Features
 
@@ -11,7 +11,7 @@ A simple Todo app built using JavaScript, allowing users to add, edit, delete, a
 
 ## Live Demo
 
-Check out the live demo here: [Live Demo](https://your-live-demo-link.com)
+Check out the live demo here: [Live Demo](https://vasanthrs-dev.github.io/todo-app/)
 
 ## Screenshot
 
